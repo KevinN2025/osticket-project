@@ -92,7 +92,7 @@ sudo chmod -R 755 /var/www/html/osticket
 <img width="1084" height="443" alt="image" src="https://github.com/user-attachments/assets/030cf0e9-13a7-4ade-9d78-5dbee700151b" />
 </p>
 <p>
-   Directory Loaction:
+   Apache Directory Loactions:
 
    ```bash
 /etc/apache2/sites-enabled/osticket.conf
