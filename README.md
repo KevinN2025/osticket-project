@@ -29,6 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1910" height="651" alt="image" src="https://github.com/user-attachments/assets/3fd16737-bf64-4418-8e82-88818a850309" />
 </p>
 <p>
+   
 ```bash
    sudo apt install apache2 mariadb-server php php-cli php-common php-gd php-mysql php-mbstring php-xml php-curl php-zip unzip -y
 ```
@@ -54,7 +55,8 @@ sudo systemctl start mariadb
 <img width="1920" height="972" alt="MariaDB_running" src="https://github.com/user-attachments/assets/39c2421d-19f4-4d69-a1b5-b14ea830e8a2" />
 </p>
 <p>
-Setup MariaDB:
+Setup MariaDB
+   
 ```bash
 sudo mysql -u root -p
 ```
