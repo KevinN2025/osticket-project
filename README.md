@@ -16,8 +16,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- A domain  
-- Linux Server or Laptop  
+- A Domain Name
+- Linux Server or Linux PC  
 - Apache2 (httpd)
 - php 8.4 
 - Local MariaDB
@@ -37,7 +37,8 @@ This installs most of the dependencies needed for Osticket.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1788" height="678" alt="Apache_running" src="https://github.com/user-attachments/assets/530d0367-b8e3-4853-9a2d-ccbdf76bb871" />
+<img width="1920" height="972" alt="MariaDB_running" src="https://github.com/user-attachments/assets/e3ea9a93-6d8a-4f27-824e-cd364f5d9b79" />
 </p>
 <p>
 Enable MariaDB and Apache Daemons:
@@ -49,7 +50,7 @@ sudo systemctl start mariadb
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="972" alt="MariaDB_running" src="https://github.com/user-attachments/assets/39c2421d-19f4-4d69-a1b5-b14ea830e8a2" />
 </p>
 <p>
 Setup MariaDB:
@@ -64,11 +65,11 @@ GRANT ALL PRIVILEGES ON osticket.* TO 'osticket_user'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
 ```
-Your local database is now set
+Local database is now set
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="936" height="381" alt="Installed_Confirmation" src="https://github.com/user-attachments/assets/0fae1b4d-e4c7-4a43-85bf-628a8f1653d8" />
 </p>
 <p>
 Download OSticket in your tmp/ directory:
@@ -82,7 +83,22 @@ Set Permissions (Important):
 sudo chown -R www-data:www-data /var/www/html/osticket
 sudo chmod -R 755 /var/www/html/osticket
 ```
-Setting up your domain name with Apache:
+
+<p>
+<img width="1084" height="443" alt="image" src="https://github.com/user-attachments/assets/030cf0e9-13a7-4ade-9d78-5dbee700151b" />
+<img width="1837" height="938" alt="DNS_Configuration" src="https://github.com/user-attachments/assets/a506b699-46d6-44de-b398-c82b9a3af189" />
+</p>
+<p>
+This step is setting up your domain name to your apache directory
+</p>
+
+<p>
+<img width="1854" height="945" alt="osticket_completed" src="https://github.com/user-attachments/assets/9f88f410-25ec-4d52-a16f-5dfeb5b98aaf" />
+</p>
+
+<p>
+Success, the Doamin Name was aggreagted with Apache and set OSTicket as the new default for the front page of the website.
+</p>
 
 </p>
 <br />
