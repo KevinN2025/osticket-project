@@ -89,6 +89,7 @@ sudo chmod -R 755 /var/www/html/osticket
 
 <p>
 <img width="1084" height="443" alt="image" src="https://github.com/user-attachments/assets/030cf0e9-13a7-4ade-9d78-5dbee700151b" />
+
    
 <img width="1837" height="938" alt="DNS_Configuration" src="https://github.com/user-attachments/assets/a506b699-46d6-44de-b398-c82b9a3af189" />
 </p>
