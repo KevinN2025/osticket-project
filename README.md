@@ -44,6 +44,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 Enable MariaDB and Apache Daemons:
+   
 ```bash
 sudo systemctl start apache2
 sudo systemctl start mariadb 
